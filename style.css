@@ -11,9 +11,19 @@ body {
   font-size: 15px;
   line-height: 1.5;
 }
-
-a {
-  color: #262626;
+.main-nav a {
+  text-decoration: none;
+  padding: 0;
+  line-height: 2.72rem;
+  margin: 0 5px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #2b3539;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+a{
+  color: #2b3539;
   text-decoration: none;
 }
 
@@ -25,6 +35,65 @@ ul {
   width: 90%;
   max-width: 1100px;
   margin: auto;
+}
+.contain {
+  background: #f3f2ef;
+}
+
+.row,
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.row-title {
+  color: #2b3539;
+  font-weight: 600;
+  font-size: 55px;
+  text-transform: capitalize;
+  line-height: 70px;
+}
+.col-img {
+  max-width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  background: none;
+}
+.col-title {
+  color: #084ca1;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.col-title-end {
+  font-size: 20px;
+  font-weight: 700;
+  color: #535c63;
+  line-height: 28px;
+  margin-bottom: 5px;
+}
+
+.col-des1 {
+  padding-left: 60px;
+}
+.col-des2 {
+  padding-right: 60px;
+}
+.col-stuff {
+  margin-bottom: 15px;
+}
+.col-para {
+  color: #667078;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 10px;
 }
 
 /* Nav */
@@ -105,8 +174,7 @@ ul {
 .showcase {
   width: 100%;
   height: 400px;
-  background: url("/bg-8.jpg") no-repeat center
-    center/cover;
+  background: url("/bg-8.jpg") no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -158,8 +226,7 @@ ul {
 .xbox {
   width: 100%;
   height: 350px;
-  background: url("/bg-5.jpg") no-repeat center
-    center/cover;
+  background: url("/bg-5.jpg") no-repeat center center/cover;
   margin-bottom: 20px;
 }
 
@@ -177,8 +244,7 @@ ul {
 .carbon {
   width: 100%;
   height: 350px;
-  background: url("/bg-10.jpg") no-repeat center
-    center/cover;
+  background: url("/bg-10.jpg") no-repeat center center/cover;
 }
 
 .carbon .content {
@@ -335,6 +401,7 @@ ul {
   }
 }
 
-.log{
+.logo{
   color: #000;
+  width: 300px;
 }
