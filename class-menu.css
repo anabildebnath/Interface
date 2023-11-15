@@ -27,7 +27,7 @@ body {
 }
 
 .app {
-  background-color: var(--bg);
+  background-color: var(--white);
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -56,6 +56,17 @@ ul {
   padding: 20px 0;
   font-size: 13px;
   
+}
+.main-nav a {
+  text-decoration: none;
+  padding: 0;
+  line-height: 2.72rem;
+  margin: 0 5px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #2b3539;
+  position: relative;
+  transition: all 0.3s ease-in-out;
 }
 
 .main-nav img {
