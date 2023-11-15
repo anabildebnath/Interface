@@ -36,6 +36,64 @@
         id="contact_form"
       >
         <fieldset>
+          <!-- Text input-first name -->
+
+          <div class="form-group">
+            <label class="col-md-4 control-label">First Name</label>
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon"
+                  ><i class="glyphicon glyphicon-user"></i
+                ></span>
+                <input
+                  name="first_name"
+                  placeholder="First Name"
+                  class="form-control"
+                  type="text"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Text input-last name -->
+
+          <div class="form-group">
+            <label class="col-md-4 control-label">Last Name</label>
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon"
+                  ><i class="glyphicon glyphicon-user"></i
+                ></span>
+                <input
+                  name="last_name"
+                  placeholder="Last Name"
+                  class="form-control"
+                  type="text"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Text input-class -->
+          <div class="form-group">
+            <label class="col-md-4 control-label">Class</label>
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon"
+                  ><i class="glyphicon glyphicon-home"></i
+                ></span>
+                <select name="class" class="form-control selectpicker">
+                  <option value=" ">Please select student's class</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
           <!-- Text input-roll -->
           <div class="form-group">
             <label class="col-md-4 control-label">Roll</label>
@@ -56,13 +114,77 @@
             </div>
           </div>
 
-          <!-- Submit Button -->
+          <!-- Text input-father's name -->
           <div class="form-group">
-            <label class="col-md-4 control-label"></label>
-            <div class="col-md-4">
-              <button type="submit" class="btn btn-warning">
-                Submit <span class="glyphicon glyphicon-send"></span>
-              </button>
+            <label class="col-md-4 control-label">Father's Name</label>
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon"
+                  ><i class="glyphicon glyphicon-user"></i
+                ></span>
+                <input
+                  name="first_name"
+                  placeholder="Father's Full Name"
+                  class="form-control"
+                  type="text"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Text input-father's name -->
+          <div class="form-group">
+            <label class="col-md-4 control-label">Mother's Name</label>
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon"
+                  ><i class="glyphicon glyphicon-user"></i
+                ></span>
+                <input
+                  name="first_name"
+                  placeholder="Mother's Full Name"
+                  class="form-control"
+                  type="text"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Text input-phone -->
+
+          <div class="form-group">
+            <label class="col-md-4 control-label">Phone #</label>
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon"
+                  ><i class="glyphicon glyphicon-earphone"></i
+                ></span>
+                <input
+                  name="phone"
+                  placeholder="(+880)1313954595"
+                  class="form-control"
+                  type="text"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Text input-address-->
+
+          <div class="form-group">
+            <label class="col-md-4 control-label">Address</label>
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon"
+                  ><i class="glyphicon glyphicon-home"></i
+                ></span>
+                <input
+                  name="address"
+                  placeholder="Address"
+                  class="form-control"
+                  type="text"
+                />
+              </div>
             </div>
           </div>
 
@@ -141,8 +263,7 @@
           <!-- yes/no checks -->
           <div class="form-group">
             <label class="col-md-4 control-label"
-              >Has this student received Bangladesh and Global studies
-              Textbook?</label
+              >Has this student received Bangladesh and Global studies Textbook?</label
             >
             <div class="col-md-4">
               <div class="radio">
@@ -151,7 +272,9 @@
                 </label>
               </div>
               <div class="radio">
-                <label> <input type="radio" name="bgs" value="no" /> No </label>
+                <label>
+                  <input type="radio" name="bgs" value="no" /> No
+                </label>
               </div>
             </div>
           </div>
@@ -210,11 +333,6 @@
           </div>
         </fieldset>
       </form>
-
-      <a href="http://127.0.0.1:5500/main-menu.html">
-        <button class="back-btn">Back</button>
-      </a>
-      
     </div>
   </body>
 </html>
