@@ -36,39 +36,20 @@
         id="contact_form"
       >
         <fieldset>
-          <!-- Text input-first name -->
+          <!-- Text input-date -->
 
           <div class="form-group">
-            <label class="col-md-4 control-label">First Name</label>
+            <label class="col-md-4 control-label">তারিখ</label>
             <div class="col-md-4 inputGroupContainer">
               <div class="input-group">
                 <span class="input-group-addon"
-                  ><i class="glyphicon glyphicon-user"></i
+                  ><i class="glyphicon glyphicon-calendar"></i
                 ></span>
                 <input
-                  name="first_name"
-                  placeholder="First Name"
+                  name="date"
+                  placeholder="তারিখ"
                   class="form-control"
-                  type="text"
-                />
-              </div>
-            </div>
-          </div>
-
-          <!-- Text input-last name -->
-
-          <div class="form-group">
-            <label class="col-md-4 control-label">Last Name</label>
-            <div class="col-md-4 inputGroupContainer">
-              <div class="input-group">
-                <span class="input-group-addon"
-                  ><i class="glyphicon glyphicon-user"></i
-                ></span>
-                <input
-                  name="last_name"
-                  placeholder="Last Name"
-                  class="form-control"
-                  type="text"
+                  type="date"
                 />
               </div>
             </div>
@@ -76,250 +57,65 @@
 
           <!-- Text input-class -->
           <div class="form-group">
-            <label class="col-md-4 control-label">Class</label>
+            <label class="col-md-4 control-label">শ্রেণি </label>
             <div class="col-md-4 inputGroupContainer">
               <div class="input-group">
                 <span class="input-group-addon"
                   ><i class="glyphicon glyphicon-home"></i
                 ></span>
                 <select name="class" class="form-control selectpicker">
-                  <option value=" ">Please select student's class</option>
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
+                  <option value=" ">শ্রেণি নির্বাচন করুন</option>
+                  <option>১</option>
+                  <option>২</option>
+                  <option>৩</option>
+                  <option>৪</option>
+                  <option>৫</option>
                 </select>
               </div>
             </div>
           </div>
 
-          <!-- Text input-roll -->
+          <!-- Text input-subject's name -->
           <div class="form-group">
-            <label class="col-md-4 control-label">Roll</label>
+            <label class="col-md-4 control-label">বিষয়</label>
             <div class="col-md-4 inputGroupContainer">
               <div class="input-group">
                 <span class="input-group-addon"
-                  ><i class="glyphicon glyphicon-list"></i
+                  ><i class="glyphicon glyphicon-book"></i
                 ></span>
                 <input
-                  name="roll"
-                  placeholder="Enter student's interger roll"
+                  name="subject"
+                  placeholder="কোন বিষয়ের বই"
+                  class="form-control"
+                  type="text"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Text input-book number -->
+          <div class="form-group">
+            <label class="col-md-4 control-label">বইয়ের সংখ্যা </label>
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon"
+                  ><i class="glyphicon glyphicon-list-alt"></i
+                ></span>
+                <input
+                  name="book number"
+                  placeholder="বইয়ের সংখ্যা"
                   class="form-control"
                   type="number"
-                  step="1"
-                  required
                 />
-              </div>
-            </div>
-          </div>
-
-          <!-- Text input-father's name -->
-          <div class="form-group">
-            <label class="col-md-4 control-label">Father's Name</label>
-            <div class="col-md-4 inputGroupContainer">
-              <div class="input-group">
-                <span class="input-group-addon"
-                  ><i class="glyphicon glyphicon-user"></i
-                ></span>
-                <input
-                  name="first_name"
-                  placeholder="Father's Full Name"
-                  class="form-control"
-                  type="text"
-                />
-              </div>
-            </div>
-          </div>
-
-          <!-- Text input-father's name -->
-          <div class="form-group">
-            <label class="col-md-4 control-label">Mother's Name</label>
-            <div class="col-md-4 inputGroupContainer">
-              <div class="input-group">
-                <span class="input-group-addon"
-                  ><i class="glyphicon glyphicon-user"></i
-                ></span>
-                <input
-                  name="first_name"
-                  placeholder="Mother's Full Name"
-                  class="form-control"
-                  type="text"
-                />
-              </div>
-            </div>
-          </div>
-
-          <!-- Text input-phone -->
-
-          <div class="form-group">
-            <label class="col-md-4 control-label">Phone #</label>
-            <div class="col-md-4 inputGroupContainer">
-              <div class="input-group">
-                <span class="input-group-addon"
-                  ><i class="glyphicon glyphicon-earphone"></i
-                ></span>
-                <input
-                  name="phone"
-                  placeholder="(+880)1313954595"
-                  class="form-control"
-                  type="text"
-                />
-              </div>
-            </div>
-          </div>
-
-          <!-- Text input-address-->
-
-          <div class="form-group">
-            <label class="col-md-4 control-label">Address</label>
-            <div class="col-md-4 inputGroupContainer">
-              <div class="input-group">
-                <span class="input-group-addon"
-                  ><i class="glyphicon glyphicon-home"></i
-                ></span>
-                <input
-                  name="address"
-                  placeholder="Address"
-                  class="form-control"
-                  type="text"
-                />
-              </div>
-            </div>
-          </div>
-
-          <!-- yes/no checks -->
-          <div class="form-group">
-            <label class="col-md-4 control-label"
-              >Has this student received Bangla Textbook?</label
-            >
-            <div class="col-md-4">
-              <div class="radio">
-                <label>
-                  <input type="radio" name="bangla" value="yes" /> Yes
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="bangla" value="no" /> No
-                </label>
-              </div>
-            </div>
-          </div>
-          <!-- yes/no checks -->
-          <div class="form-group">
-            <label class="col-md-4 control-label"
-              >Has this student received English Textbook?</label
-            >
-            <div class="col-md-4">
-              <div class="radio">
-                <label>
-                  <input type="radio" name="english" value="yes" /> Yes
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="english" value="no" /> No
-                </label>
-              </div>
-            </div>
-          </div>
-          <!-- yes/no checks -->
-          <div class="form-group">
-            <label class="col-md-4 control-label"
-              >Has this student received Math Textbook?</label
-            >
-            <div class="col-md-4">
-              <div class="radio">
-                <label>
-                  <input type="radio" name="math" value="yes" /> Yes
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="math" value="no" /> No
-                </label>
-              </div>
-            </div>
-          </div>
-          <!-- yes/no checks -->
-          <div class="form-group">
-            <label class="col-md-4 control-label"
-              >Has this student received Science Textbook?</label
-            >
-            <div class="col-md-4">
-              <div class="radio">
-                <label>
-                  <input type="radio" name="science" value="yes" /> Yes
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="science" value="no" /> No
-                </label>
-              </div>
-            </div>
-          </div>
-          <!-- yes/no checks -->
-          <div class="form-group">
-            <label class="col-md-4 control-label"
-              >Has this student received Bangladesh and Global studies Textbook?</label
-            >
-            <div class="col-md-4">
-              <div class="radio">
-                <label>
-                  <input type="radio" name="bgs" value="yes" /> Yes
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="bgs" value="no" /> No
-                </label>
-              </div>
-            </div>
-          </div>
-
-          <!-- yes/no checks -->
-          <div class="form-group">
-            <label class="col-md-4 control-label"
-              >Does this student has all the books?</label
-            >
-            <div class="col-md-4">
-              <div class="radio">
-                <label>
-                  <input type="radio" name="hosting" value="yes" /> Yes
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="hosting" value="no" /> No
-                </label>
-              </div>
-            </div>
-          </div>
-
-          <!-- Text area-description -->
-
-          <div class="form-group">
-            <label class="col-md-4 control-label">Student Description</label>
-            <div class="col-md-4 inputGroupContainer">
-              <div class="input-group">
-                <span class="input-group-addon"
-                  ><i class="glyphicon glyphicon-pencil"></i
-                ></span>
-                <textarea
-                  class="form-control"
-                  name="comment"
-                  placeholder="Student Description"
-                ></textarea>
               </div>
             </div>
           </div>
 
           <!-- Success message -->
           <div class="alert alert-success" role="alert" id="success_message">
-            Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for
-            contacting us, we will get back to you shortly.
+            সাবমিটেড
+            <i class="glyphicon glyphicon-thumbs-up"></i> তথ্য গ্রহণ করা হয়েছে,
+            অল্প সময় অপেক্ষা করুন
           </div>
 
           <!-- Submit Button -->
@@ -327,12 +123,15 @@
             <label class="col-md-4 control-label"></label>
             <div class="col-md-4">
               <button type="submit" class="btn btn-warning">
-                Submit <span class="glyphicon glyphicon-send"></span>
+                সাবমিট <span class="glyphicon glyphicon-send"></span>
               </button>
             </div>
           </div>
         </fieldset>
       </form>
+      <a href="http://127.0.0.1:5500/main-menu.html">
+        <button class="back-btn">Back</button>
+      </a>
     </div>
   </body>
 </html>
