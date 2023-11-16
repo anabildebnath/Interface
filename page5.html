@@ -13,7 +13,7 @@
     >
       <!-- left side nav icons -->
       <div
-        class="bg-white  dark:border-gray-800 w-20 flex-shrink-0 border-r border-gray-200 flex-col hidden sm:flex"
+        class="bg-white w-20 flex-shrink-0 border-r    flex-col hidden sm:flex"
       >
         <div class="h-16 text-gray-900 flex items-center justify-center">
           <img
@@ -111,60 +111,65 @@
       <div class="flex-grow overflow-hidden h-full flex flex-col">
         <!-- top nav bar -->
         <div
-          class="h-16 lg:flex w-full border-b border-gray-200 dark:border-gray-800 hidden px-10"
-        >
-          <div class="flex h-full text-gray-900 dark:text-gray-900">
+        class="h-16 lg:flex w-full border-b       hidden px-10"
+      >
+        <div class="flex h-full text-gray-600 dark:text-gray-900">
+          <a
+            href="http://127.0.0.1:5500/index.html"
+            class="cursor-pointer h-full border-b-2 border-blue-500 text-blue-500 dark:text-gray-900 dark:border-white inline-flex mr-8 items-center" style="color: black; font-weight: 600;border-bottom: 2px solid gray;"
+            >হোমপেজ</a
+          >
+          <a
+            href="http://127.0.0.1:5500/main-menu.html"
+            class="cursor-pointer h-full border-b-2 border-blue-500 text-blue-500 dark:text-gray-900 dark:border-white inline-flex mr-8 items-center" style="color: black; font-weight: 600; border-bottom: 2px solid gray;"
+            >এন্ট্রি মেনু</a            >
             <a
-              href="http://127.0.0.1:5500/index.html"
-              class="cursor-pointer h-full border-b-2 border-blue-500 text-gray-900:text-gray-900 dark:border-white inline-flex mr-8 items-center" style="color: black; font-weight: 600;border-bottom: 2px solid gray;"
-              >হোমপেজ</a
-            >
-            <a
-              href="http://127.0.0.1:5500/main-menu
-.html"
-              class="cursor-pointer h-full border-b-2 border-blue-500 text-gray-900:text-gray-900 dark:border-white inline-flex mr-8 items-center" style="color: black; font-weight: 600;border-bottom: 2px solid gray;"
-              >এন্ট্রি মেনু</a
-            >
-         
-            <a
-              href="http://127.0.0.1:5500/dist-page1.html"
-              class="cursor-pointer h-full border-b-2 border-blue-500 text-gray-900:text-gray-900 dark:border-white inline-flex mr-8 items-center" style="color: black; font-weight: 600;border-bottom: 2px solid gray;"
-              >বই বিতরণী তথ্য</a
-            >
-          </div>
-          <div class="ml-auto flex items-center space-x-7">
-         
-
-            <button class="flex items-center">
-              <span class="relative flex-shrink-0">
-                <img
-                  class="w-7 h-7 rounded-full"
-                  src="profile_pic.jpg"
-                  alt="profile"
-                />
-                <span
-                  class="absolute right-0 -mb-0.5 bottom-0 w-2 h-2 rounded-full bg-green-500 border border-white dark:border-gray-900"
-                ></span>
-              </span>
-              <span class="ml-2">অ্যাডমিন</span>
-              <svg
-                viewBox="0 0 24 24"
-                class="w-4 ml-1 flex-shrink-0"
-                stroke="currentColor"
-                stroke-width="2"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
-            </button>
-          </div>
+            href="http://127.0.0.1:5500/dist-page1.html"
+            class="cursor-pointer h-full border-b-2 dark:text-gray-900 dark:border-white inline-flex mr-8 items-center "style="padding: 3px; color: black; font-weight: 600; border-bottom: 2px solid gray;" 
+            >বই বিতরণী তথ্য</a
+          >
+          <a
+            href="http://127.0.0.1:5500/page1.html"
+            class="cursor-pointer h-full border-b-2 dark:text-gray-900 dark:border-white inline-flex mr-8 items-center"  style="color: black; font-weight: 600;border-bottom: 2px solid rgb(30, 105, 180);"
+            >শিক্ষার্থীদের তথ্য</a
+          >
         </div>
+
+        <div class="ml-auto flex items-center space-x-7">
+
+          <a href="http://127.0.0.1:5500/profile.html">
+            
+          <button class="flex items-center">
+            <span class="relative flex-shrink-0">
+              <img
+                class="w-7 h-7 rounded-full"
+                src="profile_pic.jpg"
+                alt="profile"
+              />
+              <span
+                class="absolute right-0 -mb-0.5 bottom-0 w-2 h-2 rounded-full bg-green-500 border border-white dark:border-gray-900"
+              ></span>
+            </span>
+            <span class="ml-2">এডমিন</span>
+            <svg
+              viewBox="0 0 24 24"
+              class="w-4 ml-1 flex-shrink-0"
+              stroke="currentColor"
+              stroke-width="2"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          </a>
+        </div>
+      </div>
 
         <div class="flex-grow flex overflow-x-hidden">
           <div
-            class="xl:w-72 w-48 flex-shrink-0 border-r border-gray-200 dark:border-gray-800 h-full overflow-y-auto lg:block hidden p-5"
+            class="xl:w-72 w-48 flex-shrink-0 border-r border-gray-20 h-full overflow-y-auto lg:block hidden p-5"
           >
             <div class="text-xs text-gray-900 tracking-wider">
               তথ্য সার্চ করুন
@@ -198,7 +203,7 @@
                   class="bg-white p-3 w-full flex flex-col rounded-md  shadow"
                 >
                   <div
-                    class="flex xl:flex-row flex-col items-center font-medium text-gray-900 dark:text-gray-900 pb-2 mb-2 xl:border-b border-gray-200 border-opacity-75 dark:border-gray-700 w-full"
+                    class="flex xl:flex-row flex-col items-center font-medium text-gray-900 dark:text-gray-900 pb-2 mb-2 xl:border-b    border-opacity-75 dark:border-gray-700 w-full"
                   >
                     <img
                       src="/1.png"
@@ -225,7 +230,7 @@
                   class="bg-white p-3 w-full flex flex-col rounded-md  shadow"
                 >
                   <div
-                    class="flex xl:flex-row flex-col items-center font-medium text-gray-900 dark:text-gray-900 pb-2 mb-2 xl:border-b border-gray-200 border-opacity-75 dark:border-gray-700 w-full"
+                    class="flex xl:flex-row flex-col items-center font-medium text-gray-900 dark:text-gray-900 pb-2 mb-2 xl:border-b    border-opacity-75 dark:border-gray-700 w-full"
                   >
                     <img
                       src="/2.png"
@@ -252,7 +257,7 @@
                   class="bg-white p-3 w-full flex flex-col rounded-md  shadow"
                 >
                   <div
-                    class="flex xl:flex-row flex-col items-center font-medium text-gray-900 dark:text-gray-900 pb-2 mb-2 xl:border-b border-gray-200 border-opacity-75 dark:border-gray-700 w-full"
+                    class="flex xl:flex-row flex-col items-center font-medium text-gray-900 dark:text-gray-900 pb-2 mb-2 xl:border-b    border-opacity-75 dark:border-gray-700 w-full"
                   >
                     <img
                       src="/3.png"
@@ -279,7 +284,7 @@
                   class="bg-white p-3 w-full flex flex-col rounded-md  shadow"
                 >
                   <div
-                    class="flex xl:flex-row flex-col items-center font-medium text-gray-900 dark:text-gray-900 pb-2 mb-2 xl:border-b border-gray-200 border-opacity-75 dark:border-gray-700 w-full"
+                    class="flex xl:flex-row flex-col items-center font-medium text-gray-900 dark:text-gray-900 pb-2 mb-2 xl:border-b    border-opacity-75 dark:border-gray-700 w-full"
                   >
                     <img
                       src="/4.png"
@@ -306,7 +311,7 @@
                   class="bg-white p-3 w-full flex flex-col rounded-md  shadow"
                 >
                   <div
-                    class="flex xl:flex-row flex-col items-center font-medium text-gray-900 dark:text-gray-900 pb-2 mb-2 xl:border-b border-gray-200 border-opacity-75 dark:border-gray-700 w-full"
+                    class="flex xl:flex-row flex-col items-center font-medium text-gray-900 dark:text-gray-900 pb-2 mb-2 xl:border-b    border-opacity-75 dark:border-gray-700 w-full"
                   >
                     <img
                       src="/5.png"
@@ -329,12 +334,12 @@
 
           <div class="flex-grow bg-white  overflow-y-auto">
             <div
-              class="sm:px-7 sm:pt-7 px-4 pt-4 flex flex-col w-full border-b border-gray-200 bg-white  dark:text-gray-900 dark:border-gray-800 sticky top-0"
+              class="sm:px-7 sm:pt-7 px-4 pt-4 flex flex-col w-full border-b    bg-white  dark:text-gray-90 sticky top-0"
             >
               <!--2nd top header -->
-              <div class="flex w-full items-center">
+              <div class="flex w-full items-center" style="padding-bottom: 20px;">
                 <div
-                  class="flex items-center text-3xl text-gray-900 dark:text-gray-900" style="padding-bottom: 20px;"
+                  class="flex items-center text-3xl text-gray-900 dark:text-gray-900" 
                 >
                   <img
                     src="male_profile.jpg"
@@ -347,14 +352,14 @@
                 <div class="ml-auto sm:flex hidden items-center justify-end">
                   <div class="text-right">
                     <div class="text-xs text-gray-900 dark:text-gray-900">
-                      Recieved Books:
+                      প্রাপ্ত বই:
                     </div>
                     <div class="text-gray-900 text-lg dark:text-gray-900">
                       8/12
                     </div>
                   </div>
                   <button
-                    class="w-8 h-8 ml-4 text-gray-900 shadow dark:text-gray-900 rounded-full flex items-center justify-center border border-gray-200 dark:border-gray-700"
+                    class="w-8 h-8 ml-4 text-gray-900 shadow dark:text-gray-900 rounded-full flex items-center justify-center border    dark:border-gray-700"
                   >
                     <svg
                       viewBox="0 0 24 24"
@@ -380,7 +385,7 @@
               <div class="flex w-full items-center mb-7">
                 <a href="http://127.0.0.1:5500/page4.html"> </a>
                 <button
-                  class="inline-flex mr-3 items-center h-8 pl-2.5 pr-2 rounded-md shadow text-gray-700 dark:text-gray-900 dark:border-gray-800 border border-gray-200 leading-none py-0"
+                  class="inline-flex mr-3 items-center h-8 pl-2.5 pr-2 rounded-md shadow text-gray-700 dark:text-gray-90 border    leading-none py-0"
                 >
                   <svg
                     viewBox="0 0 24 24"
@@ -417,7 +422,7 @@
                   </svg>
                 </button>
                 <button
-                  class="inline-flex items-center h-8 pl-2.5 pr-2 rounded-md shadow text-gray-700 dark:text-gray-900 dark:border-gray-800 border border-gray-200 leading-none py-0"
+                  class="inline-flex items-center h-8 pl-2.5 pr-2 rounded-md shadow text-gray-700 dark:text-gray-90 border    leading-none py-0"
                 >
                   বাছাই করুন
                   <svg
@@ -439,7 +444,7 @@
 
                   <a href="http://127.0.0.1:5500/page4.html">
                     <button
-                      class="inline-flex mr-2 items-center h-8 w-8 justify-center text-gray-900 rounded-md shadow border border-gray-200 dark:border-gray-800 leading-none py-0"
+                      class="inline-flex mr-2 items-center h-8 w-8 justify-center text-gray-900 rounded-md shadow border border-gray-20 leading-none py-0"
                     >
                       <svg
                         class="w-4"
@@ -456,7 +461,7 @@
                   </a>
                   <a href="http://127.0.0.1:5500/page1.html">
                     <button
-                      class="inline-flex items-center h-8 w-8 justify-center text-gray-900 rounded-md shadow border border-gray-200 dark:border-gray-800 leading-none py-0"
+                      class="inline-flex items-center h-8 w-8 justify-center text-gray-900 rounded-md shadow border border-gray-20 leading-none py-0"
                     >
                       <svg
                         class="w-4"
@@ -480,53 +485,54 @@ s -->
                 <thead>
                   <tr class="text-gray-900">
                     <th
-                      class="font-normal px-3 pt-0 pb-3 border-b border-gray-200 dark:border-gray-800"
+                      class="font-normal px-3 pt-0 pb-3 border-b border-gray-20"
                     >
                       নাম
 
                     </th>
                     <th
-                      class="font-normal px-3 pt-0 pb-3 border-b border-gray-200 dark:border-gray-800"
+                      class="font-normal px-3 pt-0 pb-3 border-b border-gray-20"
                     >
-                      Roll Number
+                      রোল নম্বর
                     </th>
                     <th
-                      class="font-normal px-3 pt-0 pb-3 border-b border-gray-200 dark:border-gray-800 hidden md:table-cell"
+                      class="font-normal px-3 pt-0 pb-3 border-b border-gray-20 hidden md:table-cell"
                     >
-                      Class
+                    শ্রেণি
+
                     </th>
                     <th
-                      class="font-normal px-3 pt-0 pb-3 border-b border-gray-200 dark:border-gray-800"
+                      class="font-normal px-3 pt-0 pb-3 border-b border-gray-20"
                     >
-                      Date
+                      তারিখ
                     </th>
                     <th
-                      class="font-normal px-3 pt-0 pb-3 border-b border-gray-200 dark:border-gray-800 sm:text-gray-900 text-gray-900"
+                      class="font-normal px-3 pt-0 pb-3 border-b border-gray-20 sm:text-gray-900 text-gray-900"
                     >
                       Bangla
                     </th>
                     <th
-                      class="font-normal px-3 pt-0 pb-3 border-b border-gray-200 dark:border-gray-800 sm:text-gray-900 text-gray-900"
+                      class="font-normal px-3 pt-0 pb-3 border-b border-gray-20 sm:text-gray-900 text-gray-900"
                     >
                       English
                     </th>
                     <th
-                      class="font-normal px-3 pt-0 pb-3 border-b border-gray-200 dark:border-gray-800 sm:text-gray-900 text-gray-900"
+                      class="font-normal px-3 pt-0 pb-3 border-b border-gray-20 sm:text-gray-900 text-gray-900"
                     >
                       Science
                     </th>
                     <th
-                      class="font-normal px-3 pt-0 pb-3 border-b border-gray-200 dark:border-gray-800 sm:text-gray-900 text-gray-900"
+                      class="font-normal px-3 pt-0 pb-3 border-b border-gray-20 sm:text-gray-900 text-gray-900"
                     >
                       History
                     </th>
                     <th
-                      class="font-normal px-3 pt-0 pb-3 border-b border-gray-200 dark:border-gray-800 sm:text-gray-900 text-gray-900"
+                      class="font-normal px-3 pt-0 pb-3 border-b border-gray-20 sm:text-gray-900 text-gray-900"
                     >
                       Religion
                     </th>
                     <th
-                      class="font-normal px-3 pt-0 pb-3 border-b border-gray-200 dark:border-gray-800 sm:text-gray-900 text-gray-900"
+                      class="font-normal px-3 pt-0 pb-3 border-b border-gray-20 sm:text-gray-900 text-gray-900"
                     >
                       Math
                     </th>
@@ -539,7 +545,7 @@ s -->
                   <!-- 1st row -->
                   <tr>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -560,7 +566,7 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -586,12 +592,12 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800 md:table-cell hidden"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20 md:table-cell hidden"
                     >
                       5
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <div class="sm:flex hidden flex-col">
@@ -700,7 +706,7 @@ s -->
                   <!-- 2nd row -->
                   <tr>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -720,7 +726,7 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -746,12 +752,12 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800 md:table-cell hidden"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20 md:table-cell hidden"
                     >
                       5
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <div class="sm:flex hidden flex-col">
@@ -860,7 +866,7 @@ s -->
                   <!-- 3rd row -->
                   <tr>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -879,7 +885,7 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -905,12 +911,12 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800 md:table-cell hidden"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20 md:table-cell hidden"
                     >
                       5
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <div class="sm:flex hidden flex-col">
@@ -1019,7 +1025,7 @@ s -->
                   <!-- 4th row -->
                   <tr>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -1038,7 +1044,7 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -1064,12 +1070,12 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800 md:table-cell hidden"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20 md:table-cell hidden"
                     >
                       5
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <div class="sm:flex hidden flex-col">
@@ -1179,7 +1185,7 @@ s -->
                   <!-- 5th row -->
                   <tr>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -1198,7 +1204,7 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -1224,12 +1230,12 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800 md:table-cell hidden"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20 md:table-cell hidden"
                     >
                       5
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800 text-green-500"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20 text-green-500"
                     >
                       <div class="flex items-center">
                         <div class="sm:flex hidden flex-col">
@@ -1345,7 +1351,7 @@ s -->
                   <!-- 6th row -->
                   <tr>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -1364,7 +1370,7 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -1390,12 +1396,12 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800 md:table-cell hidden"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20 md:table-cell hidden"
                     >
                       5
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <div class="sm:flex hidden flex-col">
@@ -1505,7 +1511,7 @@ s -->
                   <!-- 7th row -->
                   <tr>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -1525,7 +1531,7 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -1551,12 +1557,12 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800 md:table-cell hidden"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20 md:table-cell hidden"
                     >
                       5
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <div class="sm:flex hidden flex-col">
@@ -1666,7 +1672,7 @@ s -->
                   <!-- 8th row -->
                   <tr>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -1684,7 +1690,7 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -1710,12 +1716,12 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800 md:table-cell hidden"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20 md:table-cell hidden"
                     >
                       5
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <div class="sm:flex hidden flex-col">
@@ -1825,7 +1831,7 @@ s -->
                   <!-- 9th row -->
                   <tr>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -1845,7 +1851,7 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -1871,12 +1877,12 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800 md:table-cell hidden"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20 md:table-cell hidden"
                     >
                       5
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <div class="sm:flex hidden flex-col">
@@ -1986,7 +1992,7 @@ s -->
                   <!-- 10th row -->
                   <tr>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -2004,7 +2010,7 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -2030,12 +2036,12 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800 md:table-cell hidden"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20 md:table-cell hidden"
                     >
                       5
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <div class="sm:flex hidden flex-col">
@@ -2145,7 +2151,7 @@ s -->
                   <!-- 11th row -->
                   <tr>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -2163,7 +2169,7 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -2189,12 +2195,12 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800 md:table-cell hidden"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20 md:table-cell hidden"
                     >
                       5
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <div class="sm:flex hidden flex-col">
@@ -2304,7 +2310,7 @@ s -->
                   <!-- 12th row -->
                   <tr>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -2322,7 +2328,7 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -2348,12 +2354,12 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800 md:table-cell hidden"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20 md:table-cell hidden"
                     >
                       5
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <div class="sm:flex hidden flex-col">
@@ -2463,7 +2469,7 @@ s -->
                   <!-- 13th row -->
                   <tr>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -2481,7 +2487,7 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -2507,12 +2513,12 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800 md:table-cell hidden"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20 md:table-cell hidden"
                     >
                       5
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <div class="sm:flex hidden flex-col">
@@ -2622,7 +2628,7 @@ s -->
                   <!-- 14th row -->
                   <tr>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -2642,7 +2648,7 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -2668,12 +2674,12 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800 md:table-cell hidden"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20 md:table-cell hidden"
                     >
                       5
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800 text-red-500"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20 text-red-500"
                     >
                       <div class="flex items-center">
                         <div class="sm:flex hidden flex-col">
@@ -2783,7 +2789,7 @@ s -->
                   <!-- 15th row -->
                   <tr>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -2801,7 +2807,7 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -2827,12 +2833,12 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800 md:table-cell hidden"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20 md:table-cell hidden"
                     >
                       5
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800 text-red-500"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20 text-red-500"
                     >
                       <div class="flex items-center">
                         <div class="sm:flex hidden flex-col">
@@ -2942,7 +2948,7 @@ s -->
                   <!-- 16th row -->
                   <tr>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <!-- <svg
@@ -2974,7 +2980,7 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <svg
@@ -3000,12 +3006,12 @@ s -->
                       </div>
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800 md:table-cell hidden"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20 md:table-cell hidden"
                     >
                       5
                     </td>
                     <td
-                      class="sm:p-3 py-2 px-1 border-b border-gray-200 dark:border-gray-800"
+                      class="sm:p-3 py-2 px-1 border-b border-gray-20"
                     >
                       <div class="flex items-center">
                         <div class="sm:flex hidden flex-col">
@@ -3118,7 +3124,7 @@ s -->
               <div class="flex w-full mt-5 space-x-2 justify-end">
                 <a href="http://127.0.0.1:5500/page4.html">
                   <button
-                class="inline-flex items-center h-8 w-8 justify-center text-gray-500 rounded-md shadow border border-gray-200 dark:border-gray-800 leading-none"
+                class="inline-flex items-center h-8 w-8 justify-center text-gray-500 rounded-md shadow border border-gray-20 leading-none"
              >
                <svg
                  class="w-4"
@@ -3135,28 +3141,28 @@ s -->
              </a>
              <a href="http://127.0.0.1:5500/page1.html">
                <button
-               class="inline-flex items-center h-8 w-8 justify-center text-gray-500 rounded-md shadow border border-gray-200 dark:border-gray-800 leading-none"
+               class="inline-flex items-center h-8 w-8 justify-center text-gray-500 rounded-md shadow border border-gray-20 leading-none"
                >
                  1
                </button>
              </a>
              <a href="http://127.0.0.1:5500/page2.html">
                <button
-                class="inline-flex items-center h-8 w-8 justify-center text-gray-900 rounded-md shadow border border-gray-200 dark:border-gray-800 leading-none"
+                class="inline-flex items-center h-8 w-8 justify-center text-gray-900 rounded-md shadow border border-gray-20 leading-none"
                >
                  2
                </button>
              </a>
              <a href="http://127.0.0.1:5500/page3.html">
                <button
-                 class="inline-flex items-center h-8 w-8 justify-center text-gray-500 rounded-md shadow border border-gray-200 dark:border-gray-800 leading-none"
+                 class="inline-flex items-center h-8 w-8 justify-center text-gray-500 rounded-md shadow border border-gray-20 leading-none"
                >
                  3
                </button>
              </a>
              <a href="http://127.0.0.1:5500/page4.html">
                   <button
-               class="inline-flex items-center h-8 w-8 justify-center text-gray-500 rounded-md shadow border border-gray-200 dark:border-gray-800 leading-none"
+               class="inline-flex items-center h-8 w-8 justify-center text-gray-500 rounded-md shadow border border-gray-20 leading-none"
              >
                4
              </button>
@@ -3164,14 +3170,14 @@ s -->
              <a href="http://127.0.0.1:5500/page5.html">
                
              <button
-               class="inline-flex items-center h-8 w-8 justify-center text-gray-500 rounded-md shadow border border-gray-200 dark:border-gray-800   dark:text-gray-900 leading-none"
+               class="inline-flex items-center h-8 w-8 justify-center text-gray-500 rounded-md shadow border border-gray-20   dark:text-gray-900 leading-none"
              >
                5
              </button>
              </a>
              <a href="http://127.0.0.1:5500/page1.html">
                <button
-               class="inline-flex items-center h-8 w-8 justify-center text-gray-900 rounded-md shadow border border-gray-200 dark:border-gray-800 leading-none"
+               class="inline-flex items-center h-8 w-8 justify-center text-gray-900 rounded-md shadow border border-gray-20 leading-none"
              >
                <svg
                  class="w-4"
